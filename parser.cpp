@@ -112,7 +112,7 @@ void parse(const Grammar& grammar, const std::unordered_set<std::string>& partsO
     }
     
     int count = 0;
-    std::cout << "=========================================" << std::endl;
+    std::cout << "==========================================" << std::endl;
     for(auto c : table)
     {
         for(auto s : c)
@@ -156,9 +156,9 @@ void parse(const Grammar& grammar, const std::unordered_set<std::string>& partsO
             
             count++;
         }
-        std::cout << "-----------------------------------------" << std::endl;
+        std::cout << "------------------------------------------" << std::endl;
     }
-    std::cout << "=========================================" << std::endl;
+    std::cout << "==========================================" << std::endl;
 }
 
 int main()
