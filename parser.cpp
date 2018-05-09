@@ -27,7 +27,7 @@ void parse(const Grammar& grammar, const std::unordered_set<std::string>& partsO
         unsigned int end;
         std::vector<unsigned int> hist;
             
-        bool operator==(const State& rhs)
+        bool operator==(const State& rhs) const
         {
             return production == rhs.production &&
                    position == rhs.position &&
